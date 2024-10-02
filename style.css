@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.nav{
+  
+    height: 6vh;
+    width: 100%;
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+   padding: 30px 30px;
+   }
+   #ni{
+       display: flex;
+       gap: 50px;
+   }
+   .logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   }
+   .logo img{
+    height: 5vh;
+    width: 5vh;
+   }
+   .join{
+    display: flex;
+    align-items: center;   
+    justify-content: space-between;
+    gap:7px;
+   }
+   .btn{
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+   }
