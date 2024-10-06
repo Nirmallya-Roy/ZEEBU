@@ -38,4 +38,41 @@ tl.from("h4",{
     duration: 0.5,
     stagger:0.3
 },"-=1")
-
+gsap.to(".planet",{
+    duration:5,
+    scale: 0.5,
+    duration:4,
+    scrollTrigger:{
+        trigger:".main1",
+        scroller:"body",
+        scrub:5,
+        markers:true,
+        start:"top 0%"
+      
+    }
+})
+gsap.to(".glow",{
+        scale:0,
+        
+       scrollTrigger:{
+        trigger:".main1",
+        scroller:"body",
+        scrub:5,
+        markers:true,
+        start:"top 0%"
+      
+    }
+},"-=1")
+// gsap.to(".planet",{duration:5,
+//     scale: 0.5,
+    
+//     y:-20,
+//     duration:4,
+//     scrollTrigger:{
+//         trigger:".main2",
+//         scroller:"body",
+//         markers:true,
+//         start:"top 80%"
+      
+//     }
+// },"-=1")
